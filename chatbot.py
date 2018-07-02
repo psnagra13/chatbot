@@ -3,6 +3,7 @@ from library.format.responseFormat import userResponseFormat
 from library.response.getResponse import getResponse
 
 import time
+import spacy
 
 
 class chatbot:

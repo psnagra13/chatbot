@@ -15,3 +15,4 @@ def matchPattern (message):
                 bot_message = response.replace('{0}', match.group(1))
 
     return bot_message
+

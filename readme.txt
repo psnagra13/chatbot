@@ -6,6 +6,8 @@
 
 >> source deactivate
 
+>> install spacy
 
+>> python.exe -m spacy download en
 
 
