@@ -1,4 +1,8 @@
 responses = {
+            "bye" : [
+                    "Hope to see you soon",
+                     "Happy to help anytime"],
+
             "question" : [
                           "I don't know :(",
                           'you tell me!'
