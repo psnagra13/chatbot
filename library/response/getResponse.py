@@ -20,11 +20,12 @@ def getResponse (message):
         bot_message = matchPattern(message)
         if (bot_message == None):
             bot_message = random.choice(responses["question"])
-
+        else:
+            bot_message = replace_pronouns(bot_message)
     else:
         bot_message = random.choice(responses["statement"])
 
-    bot_message = replace_pronouns(bot_message)
+
 
     return bot_message
 
